@@ -1,0 +1,936 @@
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py changed, reloading.
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop\settings.py changed, reloading.
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop\settings.py changed, reloading.
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py changed, reloading.
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] Graceful shutdown initiated...
+[INFO] All workers shut down cleanly.
+[INFO] Graceful shutdown initiated...
+[INFO] Graceful shutdown initiated...
+[INFO] All workers shut down cleanly.
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py changed, reloading.
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[ERROR] User registration failed: {'role': [ErrorDetail(string='"admin1" is not a valid choice.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'role': [ErrorDetail(string='"admin1" is not a valid choice.', code='invalid_choice')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] User registered successfully: {'id': 7, 'username': 'New_Staff', 'email': 'staff@estaff.com', 'role': 'staff'}
+[INFO] Graceful shutdown initiated...
+[INFO] Graceful shutdown initiated...
+[INFO] All workers shut down cleanly.
+[INFO] Graceful shutdown initiated...
+[INFO] All workers shut down cleanly.
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] Graceful shutdown initiated...
+[INFO] Graceful shutdown initiated...
+[INFO] All workers shut down cleanly.
+[INFO] Graceful shutdown initiated...
+[INFO] Graceful shutdown initiated...
+[INFO] All workers shut down cleanly.
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid'), ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid'), ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid'), ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid'), ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid'), ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid'), ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 1, 'username': 'testuser_unique_1', 'email': 'test1@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[ERROR] Error occurred: Authentication credentials were not provided. in <shop_app.views.UserViewSet object at 0x000001DDFA63C980>
+[WARNING] Unauthorized: /api/users/
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 1, 'username': 'testuser_unique_1', 'email': 'test1@example.com', 'role': 'user'}
+[ERROR] Error occurred: Authentication credentials were not provided. in <shop_app.views.UserViewSet object at 0x00000112F788FC50>
+[WARNING] Unauthorized: /api/users/
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'testuser_unique_1', 'email': 'test1@example.com', 'role': 'user'}
+[ERROR] Error occurred: Authentication credentials were not provided. in <shop_app.views.UserViewSet object at 0x000001F2A38AEFD0>
+[WARNING] Unauthorized: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000002034C7F0980>
+[WARNING] Unauthorized: /api/token/
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000002034C232990>
+[WARNING] Unauthorized: /api/token/
+[INFO] Starting 3 worker threads...
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x0000015DAA6F4980>
+[WARNING] Unauthorized: /api/token/
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x0000015DAA4AF9D0>
+[WARNING] Unauthorized: /api/token/
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 1, 'username': 'test_admin_unique_1', 'email': 'test_admin@example.com', 'role': 'admin'}
+[ERROR] Error occurred: Authentication credentials were not provided. in <shop_app.views.UserViewSet object at 0x000001CCE8AD2210>
+[WARNING] Unauthorized: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000001DABD784980>
+[WARNING] Unauthorized: /api/token/
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000001DABD4D2350>
+[WARNING] Unauthorized: /api/token/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] User list fetched successfully. Count: 1
+[INFO] Starting 3 worker threads...
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000001F9306A0980>
+[WARNING] Unauthorized: /api/token/
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000001F93009D1D0>
+[WARNING] Unauthorized: /api/token/
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 1, 'username': 'test_admin_unique_1', 'email': 'test_admin@example.com', 'role': 'admin'}
+[ERROR] Error occurred: Authentication credentials were not provided. in <shop_app.views.UserViewSet object at 0x0000016A86CD2C10>
+[WARNING] Unauthorized: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] User registration failed: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 27, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[ERROR] Internal Server Error: /api/users/
+[INFO] User list fetched successfully. Count: 1
+[INFO] Starting 3 worker threads...
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x0000019A3FCD8980>
+[WARNING] Unauthorized: /api/token/
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x0000019A3F6C7390>
+[WARNING] Unauthorized: /api/token/
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 1, 'username': 'test_admin_unique_2', 'email': 'test_admin2@example.com', 'role': 'admin'}
+[ERROR] Error occurred: Authentication credentials were not provided. in <shop_app.views.UserViewSet object at 0x0000018F1D3BF4D0>
+[WARNING] Unauthorized: /api/users/
+[INFO] Starting 3 worker threads...
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000002248EE4C980>
+[WARNING] Unauthorized: /api/token/
+[ERROR] Error occurred: No active account found with the given credentials in <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000002248EC0F750>
+[WARNING] Unauthorized: /api/token/
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_admin_unique_4', 'email': 'test_admin4@example.com', 'role': 'admin'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_admin_unique_5', 'email': 'test_admin5@example.com', 'role': 'admin'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] User list fetched successfully. Count: 7
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[ERROR] Error occurred: You do not have permission to perform this action. in <shop_app.views.UserViewSet object at 0x0000027FB9EAE2C0>
+[WARNING] Forbidden: /api/users/5/
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[ERROR] Error occurred: You do not have permission to perform this action. in <shop_app.views.UserViewSet object at 0x000002A7E1ACE2C0>
+[WARNING] Forbidden: /api/users/5/
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] User updated successfully. Response: {'id': 5, 'username': 'user', 'email': 'user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 5, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User fetched successfully.
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 6, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] User registered successfully: {'id': 2, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 3
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 6, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[ERROR] Book registration failed: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 116, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+[ERROR] Internal Server Error: /api/books/
+[INFO] Book list fetched successfully. Count: 0
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[ERROR] Book registration failed: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 116, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+[ERROR] Internal Server Error: /api/books/
+[ERROR] Book registration failed: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 116, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+[ERROR] Internal Server Error: /api/books/
+[INFO] Book list fetched successfully. Count: 0
+[ERROR] Book registration failed: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 116, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+[ERROR] Internal Server Error: /api/books/
+[ERROR] Book registration failed: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 116, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+[ERROR] Internal Server Error: /api/books/
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book list fetched successfully. Count: 0
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book list fetched successfully. Count: 0
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book list fetched successfully. Count: 0
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] User registered successfully: {'id': 7, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 8
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 11, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[ERROR] Product registration failed: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 196, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+[ERROR] Internal Server Error: /api/products/
+[ERROR] Product registration failed: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 196, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+[ERROR] Internal Server Error: /api/products/
+[ERROR] Product registration failed: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 196, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+[ERROR] Internal Server Error: /api/products/
+[ERROR] Product registration failed: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 196, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+[ERROR] Internal Server Error: /api/products/
+[ERROR] Product registration failed: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 196, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'stock': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+[ERROR] Internal Server Error: /api/products/
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'id': 1, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'id': 2, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'id': 3, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book deleted successfully: ID 3
+[INFO] Book registered successfully: {'id': 4, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book list fetched successfully. Count: 1
+[INFO] Book registered successfully: {'id': 5, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book fetched successfully.
+[INFO] Book registered successfully: {'id': 6, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[ERROR] Book updation failed: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 139, in update
+    response = super().update(request, *args, **kwargs)
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 67, in update
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'published_date': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+[ERROR] Internal Server Error: /api/books/6/
+[INFO] Product registered successfully: {'id': 1, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product registered successfully: {'id': 3, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product deleted successfully: ID 3
+[INFO] Product registered successfully: {'id': 4, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product registered successfully: {'id': 5, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product fetched successfully.
+[INFO] Product registered successfully: {'id': 6, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product updated successfully: {'id': 6, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'id': 1, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book registered successfully: {'id': 2, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book registered successfully: {'id': 3, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book deleted successfully: ID 3
+[INFO] Book registered successfully: {'id': 4, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book list fetched successfully. Count: 1
+[INFO] Book registered successfully: {'id': 5, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book fetched successfully.
+[INFO] Book registered successfully: {'id': 6, 'title': 'Shared Book', 'author': 'Author Z', 'published_date': '2024-05-01', 'price': '100.00'}
+[INFO] Book updated successfully: {'id': 6, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '122.00'}
+[INFO] Product registered successfully: {'id': 1, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product registered successfully: {'id': 3, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product deleted successfully: ID 3
+[INFO] Product registered successfully: {'id': 4, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product registered successfully: {'id': 5, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product fetched successfully.
+[INFO] Product registered successfully: {'id': 6, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product updated successfully: {'id': 6, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 12, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 13
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 16, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Product registered successfully: {'id': 1, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product registered successfully: {'id': 3, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product deleted successfully: ID 3
+[INFO] Product registered successfully: {'id': 4, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product registered successfully: {'id': 5, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product fetched successfully.
+[INFO] Product registered successfully: {'id': 6, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product updated successfully: {'id': 6, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 8, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 9
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 12, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Product registered successfully: {'id': 1, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product registered successfully: {'id': 3, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product deleted successfully: ID 3
+[INFO] Product registered successfully: {'id': 4, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product registered successfully: {'id': 5, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product fetched successfully.
+[INFO] Product registered successfully: {'id': 6, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product updated successfully: {'id': 6, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 8, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 9
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 12, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Product registered successfully: {'id': 1, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product registered successfully: {'id': 3, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product deleted successfully: ID 3
+[INFO] Product registered successfully: {'id': 4, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product registered successfully: {'id': 5, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product fetched successfully.
+[INFO] Product registered successfully: {'id': 6, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product updated successfully: {'id': 6, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 8, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 9
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 12, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Product registered successfully: {'id': 1, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product registered successfully: {'id': 3, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product deleted successfully: ID 3
+[INFO] Product registered successfully: {'id': 4, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product registered successfully: {'id': 5, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product fetched successfully.
+[INFO] Product registered successfully: {'id': 6, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product updated successfully: {'id': 6, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 8, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 9
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 12, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'id': 2, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book deleted successfully: ID 1
+[INFO] Book list fetched successfully. Count: 1
+[INFO] Book fetched successfully.
+[INFO] Book updated successfully: {'id': 1, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '122.00'}
+[INFO] Product registered successfully: {'id': 1, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product registered successfully: {'id': 3, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product deleted successfully: ID 3
+[INFO] Product registered successfully: {'id': 4, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product registered successfully: {'id': 5, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product fetched successfully.
+[INFO] Product registered successfully: {'id': 6, 'name': 'AC', 'description': 'LG', 'price': '100.00', 'stock': 2}
+[INFO] Product updated successfully: {'id': 6, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 8, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 9
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 12, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'id': 2, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book deleted successfully: ID 1
+[INFO] Book list fetched successfully. Count: 1
+[INFO] Book fetched successfully.
+[INFO] Book updated successfully: {'id': 1, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '122.00'}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20}
+[INFO] Product deleted successfully: ID 1
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product fetched successfully.
+[INFO] Product updated successfully: {'id': 1, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20}
+[INFO] User registered successfully: {'id': 4, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 5
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 8, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[ERROR] Error fetching user: No User matches the given query.
+Traceback (most recent call last):
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 90, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 633, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+shop_app.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 49, in retrieve
+    response = super().retrieve(request, *args, **kwargs)
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\generics.py", line 100, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 92, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No User matches the given query.
+[ERROR] Internal Server Error: /api/users/15/
+[INFO] User fetched successfully.
+[ERROR] Error fetching user: No User matches the given query.
+Traceback (most recent call last):
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 90, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 633, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+shop_app.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py", line 49, in retrieve
+    response = super().retrieve(request, *args, **kwargs)
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\generics.py", line 100, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+  File "c:\Users\Shubhangi.khanorkar\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 92, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No User matches the given query.
+[ERROR] Internal Server Error: /api/users/15/
+[INFO] C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py changed, reloading.
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[ERROR] Error occurred: {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]} in <shop_app.views.UserViewSet object at 0x000002C5F25AF130>
+[WARNING] Unauthorized: /api/users/
+[INFO] User list fetched successfully. Count: 7
+[ERROR] Error occurred: {'email': [ErrorDetail(string='user with this email already exists.', code='unique')]} in <shop_app.views.UserViewSet object at 0x000002C5F2C13650>
+[WARNING] Bad Request: /api/users/
+[INFO] C:\Users\Shubhangi.khanorkar\Downloads\Python\shop\shop_app\views.py changed, reloading.
+[INFO] Starting 3 worker threads...
+[INFO] Watching for file changes with StatReloader
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'id': 2, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book deleted successfully: ID 1
+[INFO] Book list fetched successfully. Count: 1
+[INFO] Book fetched successfully.
+[INFO] Book updated successfully: {'id': 1, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '122.00'}
+[ERROR] Error occurred: [ErrorDetail(string='A product with this SKU already exists.', code='invalid')] in <shop_app.views.ProductViewSet object at 0x0000028F72F2A900>
+[WARNING] Bad Request: /api/products/
+[INFO] Product deleted successfully: ID 1
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product fetched successfully.
+[INFO] Product updated successfully: {'id': 1, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20, 'sku': 'SKU_TEMP'}
+[INFO] User registered successfully: {'id': 4, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 5
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 8, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'id': 2, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book deleted successfully: ID 1
+[INFO] Book list fetched successfully. Count: 1
+[INFO] Book fetched successfully.
+[INFO] Book updated successfully: {'id': 1, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '122.00'}
+[ERROR] Error occurred: {'sku': [ErrorDetail(string='product with this sku already exists.', code='unique')]} in <shop_app.views.ProductViewSet object at 0x000002602D6FA900>
+[WARNING] Bad Request: /api/products/
+[INFO] Product deleted successfully: ID 1
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product fetched successfully.
+[INFO] Product updated successfully: {'id': 1, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20, 'sku': 'Test-SKU'}
+[INFO] User registered successfully: {'id': 4, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 5
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 8, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] Starting 3 worker threads...
+[INFO] Book registered successfully: {'id': 2, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '120.00'}
+[INFO] Book deleted successfully: ID 1
+[INFO] Book list fetched successfully. Count: 1
+[INFO] Book fetched successfully.
+[INFO] Book updated successfully: {'id': 1, 'title': 'Gitanjali', 'author': 'Rabindranath Tagore', 'published_date': '2025-06-10', 'price': '122.00'}
+[INFO] Product registered successfully: {'id': 2, 'name': 'TV', 'description': 'Samsung', 'price': '800000.00', 'stock': 20, 'sku': 'Test-SKU-0'}
+[INFO] Product deleted successfully: ID 1
+[INFO] Product list fetched successfully. Count: 1
+[INFO] Product fetched successfully.
+[INFO] Product updated successfully: {'id': 1, 'name': 'TV', 'description': 'Samsung', 'price': '900000.00', 'stock': 20, 'sku': 'Test-SKU1'}
+[INFO] User registered successfully: {'id': 4, 'username': 'test_user_unique', 'email': 'test_user@example.com', 'role': 'user'}
+[INFO] User deleted successfully: ID 5
+[INFO] User list fetched successfully. Count: 1
+[INFO] User fetched successfully.
+[INFO] User updated successfully. Response: {'id': 8, 'username': 'test_admin_unique_new', 'email': 'test_user@example.com', 'role': 'user'}
