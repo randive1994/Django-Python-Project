@@ -81,8 +81,8 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.postgresql',
         'ENGINE' : 'django_db_geventpool.backends.postgresql_psycopg2',
         'NAME': 'shopdb',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'USER': 'username',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
         # Connection pool settings

@@ -5,7 +5,7 @@ from .views import BookViewSet, ProductViewSet, UserViewSet, LogoutView
 router = DefaultRouter()
 router.register(r'books', BookViewSet)
 router.register(r'products', ProductViewSet)
-router.register(r'users', UserViewSet)  # for registration
+router.register(r'users', UserViewSet)  
 router.register(r'logout', LogoutView,basename='logout')
 
 
